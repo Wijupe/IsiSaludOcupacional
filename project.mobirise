@@ -1,0 +1,1619 @@
+{
+  "settings": {
+    "name": "IsiSaludOcupacional",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 28,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Isi Salud Ocupacional",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            "H3": {
+              "color": "#ffc200",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "48px",
+              "text-align": "right"
+            },
+            "P": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "SPAN": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#2969b0",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header2-0",
+          "_params": {
+            "imageSize": 50,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/isisaludocupacional.gif",
+              "link": "Principal.html",
+              "alt": "",
+              "title": "ISI Salud Ocupacional",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<a href=\"Principal.html\" class=\"text-info\">ISI SALUD OCUPACIONAL</a>",
+          "text": "<a href=\"Principal.html\" class=\"text-black\">Profesionales Médicos y Especialistas en Salud Ocupacional.</a><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"Principal.html\" data-toolbar=\"-mbrBtnMove\">ENTRAR</a>"
+        }
+      ]
+    },
+    "Principal.html": {
+      "settings": {
+        "title": "Isi Salud Ocupacional",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fabicon-89x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "Alex Restrepo",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ISI SALUD OCUPACIONAL</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Servicios.html\" aria-expanded=\"false\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Nosotros.html\" aria-expanded=\"false\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contactenos.html\">CONTÁCTENOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Comentarios.html\">COMÉNTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "features3-3",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nuestrosservicios-600x399.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Servicios.html",
+              "alt": "Servicios",
+              "title": "Servicios",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "NUESTROS SERVICIOS",
+          "subtitle1": "",
+          "caption1": "Liderados por profesionales de la salud y la ingeniería con una vasta experiencia en la prevención del riesgo laboral.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"Servicios.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">MÁS</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/isisaludocupacional.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Nosotros.html",
+              "alt": "ISI Salud Ocupacional",
+              "title": "ISI Salud Ocupacional",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "ISI SALUD OCUPACIONAL S.A.S.",
+          "subtitle2": "<a href=\"Nosotros.html\" class=\"text-black\" style=\"font-style: normal;\">Nit 900.892.729-1</a>",
+          "caption2": "<a href=\"Nosotros.html\" class=\"text-black\">Inscrita y habilitada como </a><i><a href=\"Nosotros.html\" class=\"text-black\">Prestador de Servicios de Salud</a></i><a href=\"Nosotros.html\" class=\"text-black\"> ante la </a><b><a href=\"Nosotros.html\" class=\"text-black\">Secretaría de Salud de Bogotá</a></b><a href=\"Nosotros.html\"> y </a><i><a href=\"Nosotros.html\" class=\"text-black\">Licencia de Prestación de Servicios de Salud Ocupacional.</a></i><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"Nosotros.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">NOSOTROS</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/beneficios-600x344.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Contactenos.html",
+              "alt": "Beneficios",
+              "title": "Beneficios",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "<p>NUESTROS BENEFICIOS<a href=\"Contactenos.html\" class=\"text-black\"></a></p>",
+          "subtitle3": "",
+          "caption3": "Al contratar nuestros servicios de salud ocupacional podrá contar con herramientas y estrategias para:&nbsp;•\tDisminuir el ausentismo laboral aumentando la productividad.&nbsp;•\tMinimizar o evitar la ocurrencia de accidentes y /o enfermedades  profesionales.&nbsp;<br>•\tContamos con personal científico y profesional altamente calificado,  aplicando las competencias laborales exigidas por el entorno empresarial.<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Contactenos.html\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">CONTÁCTENOS</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts2-4",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carrera 28 # 53A-53 Bogotá",
+              "placeId": "EiJDcmEuIDI4ICM1M2EtNTMsIEJvZ290w6EsIENvbG9tYmlh",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>Carrera 28 # 53A-53<br>Barrio Galerías<br>Bogotá, D.C.,&nbsp;Colombia<br><br>\n<strong>Contáctenos</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Celulares/WhatsApp:</span><br>+57 320-853 75 52<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Teléfono: (031) 8-007 265</span><br>&nbsp;gerencia@IsiSaludOcupacional.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"index.html\" class=\"text-black\">Inicio</a></li><li><a href=\"Servicios.html\" class=\"text-black\">Servicios</a></li><li><a href=\"Nosotros.html\" class=\"text-black\">Nosotros</a></li><li><a href=\"Contactenos.html\" class=\"text-black\">Contáctenos</a></li><li><a href=\"Comentarios.html\" class=\"text-black\">Coméntenos</a></li></ul>"
+        }
+      ]
+    },
+    "Servicios.html": {
+      "settings": {
+        "title": "ISI Salud Ocupacional",
+        "meta_descr": "Web Page Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "color": "#2969b0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-5",
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Exámenes Médicos Ocupacionales",
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "18px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features3-6",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mdicogeneral-600x396.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Médico General",
+              "title": "Médico General",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "<a href=\"Motores.html\" class=\"text-black\">M</a>édicina General",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "•\tIngreso, periódicos o de retiro.&nbsp;•\tCertificados de aptitud. Osteomusculares, cardiovasculares y de alturas.&nbsp;•\tInformes médicos.&nbsp;•\tElaboración de programas de vigilancia epidemiológica.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"Motores.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/audiometra-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Audiometría",
+              "title": "Audimetría",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "<p><a href=\"Cajas.html\" class=\"text-black\">A</a>udiometría</p>",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "•\tAudiometría aérea u ósea.<br>•\tLogo audiometría.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"Cajas.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/visiometra-600x401.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Visiometría",
+              "title": "Visiometría",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "<a href=\"Direcciones.html\" class=\"text-black\">V</a>isiometría",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "•\tVisiometria<br>•\tOptometrías<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Direcciones.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/sistemaelectrnico1-600x300-7.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Sistemas.html",
+              "alt": "",
+              "title": "Sistemas electrónicos.",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "<a href=\"Sistemas.html\" class=\"text-black\">Sistemas electrónicos.</a>",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"Sistemas.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-2",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fabicon-89x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "Alex Restrepo",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ISI SALUD OCUPACIONAL</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Servicios.html\" aria-expanded=\"false\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Nosotros.html\" aria-expanded=\"false\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contactenos.html\">CONTÁCTENOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Comentarios.html\">COMÉNTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "features3-7",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/optometra-600x388.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Optometría",
+              "title": "Optometría",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "<a href=\"Lavado.html\" class=\"text-black\">O</a>ptometría",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "•\tOptometrías<br>•\tVisiometría<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"Lavado.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/psicologa1-600x380.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Psicología",
+              "title": "Psicología",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "<a href=\"Mecanica.html\" class=\"text-black\">P</a>sicología",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "•\tPruebas de inteligencia.&nbsp;•\tPruebas de actitud habilidad e intereses.&nbsp;•\tPruebas neuropsicologías&nbsp;•\tTest psicosensométrico<br>•\tPrueba de personalidad<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"Mecanica.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/laboratorio-600x368.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Laboratorio Clínico",
+              "title": "Laboratorio Clínico",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "<a href=\"Gases.html\" class=\"text-black\">L</a>aboratorio Clínico",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "•\tNivel de glicemia&nbsp;•\tColesterol total&nbsp;•\tTriglicéridos<br>•\tColinesterasa&nbsp;•\tCreatinina&nbsp;•\tHemoglobina<br>•\tHematocrito&nbsp;•\tPerfil lipídico&nbsp;•\tSerología<br>•\tServicio de vacunación&nbsp;* Inspecciones puesto de trabajo",
+          "button3": "<a data-app-btn=\"true\" href=\"Gases.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/scanner-600x375-19.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Scanner.html",
+              "alt": "",
+              "title": "Scanner de última tecnología.",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "<a href=\"Scanner.html\" class=\"text-black\">Scanner de última tecnología.</a>",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"Scanner.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "features3-8",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/capacitacin-600x370.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Capacitaciones",
+              "title": "Capacitaciones",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Capacitaciones Generales",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "<br><b>Temas:</b><b><br></b>Legislación en Salud Ocupacional&nbsp;•\tComité Paritario de Salud Ocupacional&nbsp;•\tPlan Básico de Salud Ocupacional&nbsp;•\tPrograma de Salud Ocupacional&nbsp;•\tPanorama de Factores de Riesgo<br>•\tAcompañamiento y asesoría al COPASO.<br><br><b style=\"font-size: 1rem; line-height: 1.5;\">Prevención y Promoción:</b><br>Prevención de enfermedades cardiovasculares&nbsp;•\tPrevención de cáncer mamario y cervical<br>•\tPrevención cáncer de próstata&nbsp;•\tEstilos de vida y trabajo saludable&nbsp;•\tPautas básicas nutricionales * Transtornos de peso.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"Lavado.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ss1-600x360.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Higiene y Seguridad Industrial",
+              "title": "Higiene y Seguridad Industrial",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Higiene y Seguridad Industrial",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Prestamos asesoría, consultoría y capacitación en tareas de alto riesgo. Para ello se cuenta con un equipo técnico de primera línea en el control y gestión del riesgo ocupacional.<br>En cuanto a tareas de alto riesgo, se centran los esfuerzos en proveer servicios profesionales en trabajo en alturas, espacios confinados y seguridad eléctrica, actividades que constituyen unas de las más importantes fortalezas de nuestra organización.<br><br><b>•\tTRABAJO SEGURO EN ALTURAS</b><br>Asesorías en programas de prevención contra caídas. El desarrollo de actividades productivas, dentro del ambiente industrial, implica la ejecución de trabajos en alturas; lo que genera vulnerabilidad para los operarios encargados de la ejecución de estas labores.<br><br><br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"Mecanica.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ss2-600x360.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Higiene y Seguridad Industrial",
+              "title": "Higiene y Seguridad Industrial",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Higiene y Seguridad Industrial",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\"><b>•\tSEGURIDAD ELÉCTRICA</b></span><br>Todo proceso de producción directa o indirectamente hace uso de instalaciones eléctricas y por ende entra en contacto con las mismas, lo cual implica estar siempre dependiendo de qué tan seguras son las instalaciones eléctricas, los equipos y su utilización. \u001b<br><br><b>•\tPLANES Y BRIGADAS DE EMERGENCIA</b><br>La preparación para la atención de emergencias industriales cobra cada día más importancia dadas las implicaciones legales, económicas y ambientales que una de estas puede generar. Por tal motivo el prepararse para atender emergencias en la industria moderna es prioritario ya que éstas pueden ocurrir en cualquier momento y generar consecuencias devastadoras.<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"Gases.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/scanner-600x375-19_1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Scanner.html",
+              "alt": "",
+              "title": "Scanner de última tecnología.",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "<a href=\"Scanner.html\" class=\"text-black\">Scanner de última tecnología.</a>",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"Scanner.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">DETALLES</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts2-h",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carrera 28 # 53A-53 Bogotá",
+              "placeId": "EiJDcmEuIDI4ICM1M2EtNTMsIEJvZ290w6EsIENvbG9tYmlh",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>Carrera 28 # 53A-53<br>Barrio Galerías<br>Bogotá, D.C.,&nbsp;Colombia<br><br>\n<strong>Contáctenos</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Celulares/WhatsApp:</span><br>+57 320-853 75 52<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Teléfono: (031) 8-007 265</span><br>&nbsp;gerencia@IsiSaludOcupacional.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"index.html\" class=\"text-black\">Inicio</a></li><li><a href=\"Servicios.html\" class=\"text-black\">Servicios</a></li><li><a href=\"Nosotros.html\" class=\"text-black\">Nosotros</a></li><li><a href=\"Contactenos.html\" class=\"text-black\">Contáctenos</a></li><li><a href=\"Comentarios.html\" class=\"text-black\">Coméntenos</a></li></ul>"
+        }
+      ]
+    },
+    "Nosotros.html": {
+      "settings": {
+        "title": "ISI Salud Ocupacional",
+        "meta_descr": "Web Site Generator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-footer > div": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-title": {
+              "color": "#2969b0"
+            },
+            ".card-block P": {
+              "font-size": "16px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "<p>Contamos con un grupo de profesionales médicos y especialistas en salud ocupacional, ingenieros ambientales, psicólogos, fisioterapeutas, ingenieros industriales expertos en sistemas de gestión y demás. Nuestra licencia para la prestación de Servicios en Salud Ocupacional, nos autoriza para desempeñarnos en todos los servicios para la prevención del riesgo laboral: medicina ocupacional, ergonomía, educación y capacitación, diseño – administración y ejecución de programas, higiene ocupacional, seguridad industrial e investigación.</p><p>ESTA FOTO ES PARA EL EJEMPLO:</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/dianavargas1-147x160.png",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Diana Vargas",
+              "authorBio": "Gerente"
+            }
+          ],
+          "_anchor": "testimonials1-b",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "count": "1",
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "ISI SALUD OCUPACIONAL",
+          "subtitle": "Nuestra, su salud ocupacional."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features1-c",
+          "_params": {
+            "columnsColor": "#2e2e2e",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mision0-600x500.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Visión",
+              "title": "Visión",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Visión",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Contribuir día a día al mejoramiento de la salud de los trabajadores en el ámbito laboral, mediante las acciones de referencia, fiscalización, vigilancia y prevención.<br><br>Servir de instrumento al sector empresarial en su responsabilidad de promover a los empleados a un lugar de trabajo libre de riesgos y de proteger el ambiente.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"Mision.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">VISIÓN</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/visin0-600x500.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Misión",
+              "title": "Misión",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Misión",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "A mediano plazo aspiramos a crear una cultura de seguridad donde todo empleado conozca los riesgos inherentes a su trabajo, como protegerse de los mismos y promueva la eliminación de las condiciones inseguras que se presenten.<br>De una forma organizada, eficiente y con calidad  atender todos los asuntos relacionados con la salud y seguridad ocupacional.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"Mision.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">MISIÓN</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/valores0-600x500.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Valores",
+              "title": "Valores",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Valores",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Diana por favor coménteme los valores de su empresa.. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.Valores. Valores. Valores.",
+          "button3": "<a data-app-btn=\"true\" href=\"Valores.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">BENEFICIOS</a>",
+          "media4": {
+            "image": {
+              "src": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/nuestros-valores-img-600x421-12.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Sofia.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"Sofia.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">FILOSOFÍA</a>",
+          "media5": {
+            "image": {
+              "src": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/kegk2826848-600x500-37.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "Talento.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"Talento.html\" class=\"btn btn-warning\" data-toolbar=\"-mbrBtnMove\">TALENTO HUMANO</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-9",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fabicon-89x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "Alex Restrepo",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ISI SALUD OCUPACIONAL</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Servicios.html\" aria-expanded=\"false\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Nosotros.html\" aria-expanded=\"false\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contactenos.html\">CONTÁCTENOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Comentarios.html\">COMÉNTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts2-a",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carrera 28 # 53A-53 Bogotá",
+              "placeId": "EiJDcmEuIDI4ICM1M2EtNTMsIEJvZ290w6EsIENvbG9tYmlh",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>Carrera 28 # 53A-53<br>Barrio Galerías<br>Bogotá, D.C.,&nbsp;Colombia<br><br>\n<strong>Contáctenos</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Celulares/WhatsApp:</span><br>+57 320-853 75 52<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Teléfono: (031) 8-007 265</span><br>&nbsp;gerencia@IsiSaludOcupacional.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"index.html\" class=\"text-black\">Inicio</a></li><li><a href=\"Servicios.html\" class=\"text-black\">Servicios</a></li><li><a href=\"Nosotros.html\" class=\"text-black\">Nosotros</a></li><li><a href=\"Contactenos.html\" class=\"text-black\">Contáctenos</a></li><li><a href=\"Comentarios.html\" class=\"text-black\">Coméntenos</a></li></ul>"
+        }
+      ]
+    },
+    "Contactenos.html": {
+      "settings": {
+        "title": "ISI Salud Ocupacional",
+        "meta_descr": "Web Page Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "SMALL": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "form1-o",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Contáctenos",
+          "subtitle": "Por favor, diligencie la siguiente información y envíela.<br>Gracias.<br>",
+          "form": {
+            "action": "gerencia@isisaludocupacional.com",
+            "alerts": {
+              "success": "Gracias. En la mayor brevedad le contáctaremos."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nombre / Empresa"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-mail"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Celular / WhatsApp"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje / Cotización"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-m",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fabicon-89x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "Alex Restrepo",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ISI SALUD OCUPACIONAL</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Servicios.html\" aria-expanded=\"false\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Nosotros.html\" aria-expanded=\"false\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contactenos.html\">CONTÁCTENOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Comentarios.html\">COMÉNTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts2-n",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carrera 28 # 53A-53 Bogotá",
+              "placeId": "EiJDcmEuIDI4ICM1M2EtNTMsIEJvZ290w6EsIENvbG9tYmlh",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>Carrera 28 # 53A-53<br>Barrio Galerías<br>Bogotá, D.C.,&nbsp;Colombia<br><br>\n<strong>Contáctenos</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Celulares/WhatsApp:</span><br>+57 320-853 75 52<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Teléfono: (031) 8-007 265</span><br>&nbsp;gerencia@IsiSaludOcupacional.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"index.html\" class=\"text-black\">Inicio</a></li><li><a href=\"Servicios.html\" class=\"text-black\">Servicios</a></li><li><a href=\"Nosotros.html\" class=\"text-black\">Nosotros</a></li><li><a href=\"Contactenos.html\" class=\"text-black\">Contáctenos</a></li><li><a href=\"Comentarios.html\" class=\"text-black\">Coméntenos</a></li></ul>"
+        }
+      ]
+    },
+    "Comentarios.html": {
+      "settings": {
+        "title": "ISI Salud Ocupacional",
+        "meta_descr": "Web Site Generator Description"
+      },
+      "components": [
+        {
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-r",
+          "_params": {
+            "postsNumber": "20",
+            "bgImage": "file:///C:/Users/berme/AppData/Local/Mobirise.com/Mobirise/projectData/comments_bg_2.jpg",
+            "bgImageRadio": false,
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#7e9b9f",
+            "socialFacebook": true,
+            "socialGoogle": false,
+            "shortName": "",
+            "socialDisqus": false
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/fabicon-89x128.png",
+              "height": 128,
+              "alt": "",
+              "link": "index.html",
+              "title": "Alex Restrepo",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-info\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ISI SALUD OCUPACIONAL</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Servicios.html\" aria-expanded=\"false\">SERVICIOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Nosotros.html\" aria-expanded=\"false\">NOSOTROS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contactenos.html\">CONTÁCTENOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Comentarios.html\">COMÉNTENOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            },
+            "STRONG": {
+              "color": "#000000"
+            },
+            "UL": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "contacts2-q",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Carrera 28 # 53A-53 Bogotá",
+              "placeId": "EiJDcmEuIDI4ICM1M2EtNTMsIEJvZ290w6EsIENvbG9tYmlh",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Dirección</strong><br>Carrera 28 # 53A-53<br>Barrio Galerías<br>Bogotá, D.C.,&nbsp;Colombia<br><br>\n<strong>Contáctenos</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Celulares/WhatsApp:</span><br>+57 320-853 75 52<br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Teléfono: (031) 8-007 265</span><br>&nbsp;gerencia@IsiSaludOcupacional.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"index.html\" class=\"text-black\">Inicio</a></li><li><a href=\"Servicios.html\" class=\"text-black\">Servicios</a></li><li><a href=\"Nosotros.html\" class=\"text-black\">Nosotros</a></li><li><a href=\"Contactenos.html\" class=\"text-black\">Contáctenos</a></li><li><a href=\"Comentarios.html\" class=\"text-black\">Coméntenos</a></li></ul>"
+        }
+      ]
+    }
+  }
+}
